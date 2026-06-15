@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Optimization Meta Tags -->
+    <title>Manvith Kumar N | AI & Data Science Portfolio</title>
+    <meta name="description" content="Professional portfolio of Manvith Kumar N, a B.Tech student in Artificial Intelligence and Data Science at Reva University Bangalore. Future software engineer and tech innovator.">
+    <meta name="keywords" content="Manvith Kumar N, Portfolio, Artificial Intelligence, Data Science, Software Engineer, Reva University, B.Tech, Bangalore, C programming, Python, IoT, Web Developer">
+    <meta name="author" content="Manvith Kumar N">
+    
+    <!-- Open Graph Metadata (Social Sharing) -->
+    <meta property="og:title" content="Manvith Kumar N | AI & Data Science Student Portfolio">
+    <meta property="og:description" content="Explore projects, skills, certifications, and academic details of Manvith Kumar N.">
+    <meta property="og:image" content="avatar.png">
+    <meta property="og:type" content="website">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- FontAwesome Icon CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Canvas Background for Connective AI Particles -->
+    <canvas id="particle-canvas"></canvas>
+    <div class="gradient-overlay"></div>
+
+    <!-- Navigation Header -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-brain logo-icon"></i>
+                <span>MANVITH.KUMAR.N</span>
+            </a>
+            
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="greetings">System Initialize</div>
+                <h1 class="hero-title">
+                    <span>Manvith Kumar N</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text"></span>
+                </div>
+                <p class="hero-description">
+                    Pursuing B.Tech in Artificial Intelligence & Data Science at Reva University. Exploring the frontiers of data-driven systems, custom software, and automated intelligent solutions.
+                </p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fa-regular fa-paper-plane"></i> Get In Touch
+                    </a>
+                    <a href="resume.pdf" download="Manvith_Kumar_Resume.pdf" class="btn btn-secondary">
+                        <i class="fa-solid fa-cloud-arrow-down"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hud-container">
+                    <!-- Concentric HUD rings with dynamic animations -->
+                    <div class="hud-ring hud-ring-1"></div>
+                    <div class="hud-ring hud-ring-2"></div>
+                    <div class="hud-ring hud-ring-3"></div>
+                    <div class="profile-img-wrapper">
+                        <!-- Futuristic Avatar generated via generate_image -->
+                        <img src="avatar.png" alt="Manvith Kumar N Profile">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="container reveal" id="about">
+        <h2 class="section-title"><span>About Me</span></h2>
+        <div class="about-grid">
+            <div class="glass-card about-info">
+                <p class="about-text">
+                    Hello, I am <span>Manvith Kumar N</span> from Bangalore. I am currently pursuing B.Tech in Artificial Intelligence and Data Science at Reva University. I am passionate about technology, innovation, software development, problem-solving, and creating impactful solutions through AI and programming.
+                </p>
+                <!-- Cyber/Academic Stats Grid -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>2nd</h3>
+                        <p>Semester</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>3+</h3>
+                        <p>Academic Projects</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>3</h3>
+                        <p>Certifications</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card interests-container">
+                <h3>Technical Passions & Interests</h3>
+                <div class="interests-grid">
+                    <div class="interest-item">
+                        <i class="fa-solid fa-robot"></i>
+                        <span>Artificial Intelligence</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fa-solid fa-chart-pie"></i>
+                        <span>Data Science</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <span>Computing Innovation</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fa-solid fa-microchip"></i>
+                        <span>Modern Technology</span>
+                    </div>
+                    <div class="interest-item" style="grid-column: span 2;">
+                        <i class="fa-solid fa-volleyball"></i>
+                        <span>Sports & Outdoor Activities</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Timeline Section -->
+    <section class="container reveal" id="education">
+        <h2 class="section-title"><span>Education Timeline</span></h2>
+        <div class="timeline">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">2025 - Present</div>
+                    <h3>B.Tech in Artificial Intelligence & Data Science</h3>
+                    <div class="timeline-school">
+                        <i class="fa-solid fa-building-columns"></i> Reva University
+                    </div>
+                    <p class="timeline-desc">
+                        Currently in 2nd Semester. Deepening foundations in mathematical statistics, computer networking, programming structures, and algorithmic principles.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Timeline Item 2 (Secondary Reference for timeline visual aesthetic) -->
+            <div class="timeline-item left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">Prior Education</div>
+                    <h3>Higher Secondary School Certificate</h3>
+                    <div class="timeline-school">
+                        <i class="fa-solid fa-location-dot"></i> Bangalore, Karnataka
+                    </div>
+                    <p class="timeline-desc">
+                        Completed core academic qualifications with focus on Mathematics, Physics, Chemistry, and Computer Science studies.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="container reveal" id="skills">
+        <h2 class="section-title"><span>Technical Skills</span></h2>
+        <div class="glass-card skills-grid">
+            
+            <!-- Category 1: Coding Core -->
+            <div class="skills-category">
+                <h3><i class="fa-solid fa-code"></i> Programming & DSA</h3>
+                
+                <div class="skill-bar-wrapper">
+                    <div class="skill-info">
+                        <span><i class="fa-brands fa-python" style="color:#3776AB;"></i> Python</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar-outer">
+                        <div class="skill-bar-inner skill-bar-cyan" data-width="85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar-wrapper">
+                    <div class="skill-info">
+                        <span><i class="fa-solid fa-c"></i> C Programming</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar-outer">
+                        <div class="skill-bar-inner skill-bar-cyan" data-width="90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar-wrapper">
+                    <div class="skill-info">
+                        <span><i class="fa-solid fa-cube"></i> Advanced C</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar-outer">
+                        <div class="skill-bar-inner skill-bar-cyan" data-width="80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar-wrapper">
+                    <div class="skill-info">
+                        <span><i class="fa-solid fa-network-wired"></i> Data Structures & Algorithms</span>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-bar-outer">
+                        <div class="skill-bar-inner skill-bar-cyan" data-width="75%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 2: Soft Skills / Innovation -->
+            <div class="skills-category">
+                <h3><i class="fa-solid fa-gears"></i> Core Competencies</h3>
+
+                <div class="skill-bar-wrapper">
+                    <div class="skill-info">
+                        <span><i class="fa-solid fa-puzzle-piece"></i> Problem Solving</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar-outer">
+                        <div class="skill-bar-inner skill-bar-purple" data-width="85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar-wrapper">
+                    <div class="skill-info">
+                        <span><i class="fa-solid fa-comments"></i> Communication Skills</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar-outer">
+                        <div class="skill-bar-inner skill-bar-purple" data-width="85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar-wrapper">
+                    <div class="skill-info">
+                        <span><i class="fa-solid fa-users"></i> Team Work</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar-outer">
+                        <div class="skill-bar-inner skill-bar-purple" data-width="90%"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="container reveal" id="projects">
+        <h2 class="section-title"><span>Projects Showcase</span></h2>
+        <div class="projects-grid">
+            
+            <!-- Project 1 -->
+            <div class="glass-card project-card">
+                <div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>2D Graphics Editor</h3>
+                        <p>
+                            A menu-driven desktop graphics drawing utility engineered using core C Programming. Enables creating, editing, and rendering modular geometric vectors through shell interface commands.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-footer">
+                    <span class="tech-tag">C Language</span>
+                    <span class="tech-tag">Graphics.h</span>
+                    <span class="tech-tag">Vector Editor</span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="glass-card project-card">
+                <div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Cybercrime Report System</h3>
+                        <p>
+                            An information network project focused on streamlining cybercrime report filing, digital scam alert publishing, and enhancing local community cybersecurity awareness.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-footer">
+                    <span class="tech-tag">Database</span>
+                    <span class="tech-tag">Security Systems</span>
+                    <span class="tech-tag">Web Portal</span>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="glass-card project-card">
+                <div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fa-solid fa-fire-extinguisher"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Automated Fire Fighting System</h3>
+                        <p>
+                            An IoT-based hardware-software prototype featuring smart smoke/temperature detection nodes and automatic micro-sprinkler execution modules for immediate fire mitigation.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-footer">
+                    <span class="tech-tag">IoT Hardware</span>
+                    <span class="tech-tag">Microcontroller</span>
+                    <span class="tech-tag">Sensors</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Certifications & Achievements Section -->
+    <section class="container reveal" id="certifications">
+        <h2 class="section-title"><span>Certifications & Credentials</span></h2>
+        <div class="certifications-grid">
+            
+            <!-- Certification 1 -->
+            <div class="glass-card cert-card">
+                <div class="cert-badge">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+                <div class="cert-info">
+                    <h3>IBM Skill Online Course</h3>
+                    <p>IBM Academic Initiative Portal</p>
+                    <a href="#" class="cert-link">Verify Credentials <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Certification 2 -->
+            <div class="glass-card cert-card">
+                <div class="cert-badge">
+                    <i class="fa-solid fa-signature"></i>
+                </div>
+                <div class="cert-info">
+                    <h3>Instagram Design System</h3>
+                    <p>Advanced UX/UI Interface Course</p>
+                    <a href="#" class="cert-link">Verify Credentials <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Certification 3 -->
+            <div class="glass-card cert-card">
+                <div class="cert-badge">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+                <div class="cert-info">
+                    <h3>Wadhwani Foundation</h3>
+                    <p>Core Employability & Professional Skills</p>
+                    <a href="#" class="cert-link">Verify Credentials <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="container reveal" id="achievements">
+        <h2 class="section-title"><span>Achievements</span></h2>
+        <div class="achievements-grid">
+            <!-- Achievement 1 -->
+            <div class="glass-card achievement-card">
+                <div class="achievement-icon">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <div class="achievement-content">
+                    <h3>Academic Excellence</h3>
+                    <p>Maintained a top-tier CGPA of 9.2/10.0 in B.Tech (AI & Data Science) at Reva University, demonstrating strong foundational understanding.</p>
+                </div>
+            </div>
+            
+            <!-- Achievement 2 -->
+            <div class="glass-card achievement-card">
+                <div class="achievement-icon">
+                    <i class="fa-solid fa-code-branch"></i>
+                </div>
+                <div class="achievement-content">
+                    <h3>Algorithmic Milestone</h3>
+                    <p>Successfully solved 150+ data structure and algorithmic challenges on LeetCode and GeeksforGeeks using Python and C Programming.</p>
+                </div>
+            </div>
+
+            <!-- Achievement 3 -->
+            <div class="glass-card achievement-card">
+                <div class="achievement-icon">
+                    <i class="fa-solid fa-microchip"></i>
+                </div>
+                <div class="achievement-content">
+                    <h3>Project Presentation</h3>
+                    <p>Selected to present the "Automated Fire Fighting IoT System" prototype at the Reva University Student Innovation Showcase.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container reveal" id="contact">
+        <h2 class="section-title"><span>Establish Connection</span></h2>
+        
+        <div class="contact-grid">
+            <!-- Left Info Panel -->
+            <div class="glass-card contact-info">
+                <div>
+                    <h3>Let's Collaborate</h3>
+                    <p>Connect with me for internship positions, coding collaborations, or professional networking.</p>
+                </div>
+                
+                <div class="contact-details">
+                    <div class="contact-detail-item">
+                        <i class="fa-regular fa-envelope"></i>
+                        <div class="contact-detail-text">
+                            <h4>Encrypted Email</h4>
+                            <p>manvithkumarn@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-detail-item">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <div class="contact-detail-text">
+                            <h4>Direct Link</h4>
+                            <p>+91 9110483823</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-detail-item">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <div class="contact-detail-text">
+                            <h4>Base Coordinate</h4>
+                            <p>Bangalore, KA, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Form Panel -->
+            <div class="glass-card contact-form-container">
+                <form id="contact-form">
+                    <div class="form-group-row">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder=" " required autocomplete="off">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder=" " required autocomplete="off">
+                            <label for="email">Your Email Address</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder=" " required></textarea>
+                        <label for="message">Transmission Message...</label>
+                    </div>
+                    
+                    <div id="form-status" class="form-status"></div>
+                    
+                    <button type="submit" class="btn btn-primary" style="align-self: flex-start;">
+                        <i class="fa-solid fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <a href="#" class="footer-logo">
+                <span>MANVITH.KUMAR.N</span>
+            </a>
+            
+            <ul class="footer-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+            </ul>
+            
+            <div class="footer-socials">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon linkedin" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon github" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="mailto:manvithkumarn@gmail.com" class="social-icon" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+            
+            <div class="footer-copyright">
+                &copy; 2026 Designed and Developed by <span>Manvith Kumar N</span>. All system configurations active.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Link -->
+    <script src="script.js"></script>
+</body>
+</html>
